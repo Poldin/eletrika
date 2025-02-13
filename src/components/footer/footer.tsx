@@ -50,9 +50,30 @@ export function Footer() {
           ))}
         </div>
 
+        {/* Payment Methods */}
+        <div className="flex flex-col items-center gap-2 text-sm text-muted-foreground">
+          <div className="flex items-center gap-1">
+            
+            <Link 
+              href="https://stripe.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors font-medium"
+            >
+              <b>Powered by Stripe</b>
+            </Link>
+          </div>
+          <div className="flex gap-3">
+            {/* <img src="/images/payment/visa.svg" alt="Visa" className="h-6" />
+            <img src="/images/payment/mastercard.svg" alt="Mastercard" className="h-6" />
+            <img src="/images/payment/amex.svg" alt="American Express" className="h-6" />
+            <img src="/images/payment/maestro.svg" alt="Maestro" className="h-6" /> */}
+          </div>
+        </div>
+
         {/* Copyright */}
         <div className="text-sm text-muted-foreground text-center">
-          © 2025 Madame Elettrika. Tutti i diritti riservati. P.IVA 12345678901
+          © 2025 Chiara luce&gas. Tutti i diritti riservati. P.IVA 12345678901
         </div>
       </div>
     </footer>

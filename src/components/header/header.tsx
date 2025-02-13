@@ -7,9 +7,12 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 px-4">
       <div className="container flex h-16 items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-2">
+        <Link href="/" className="space-x-2">
           <span className="text-xl font-bold flex gap-2 font-mono items-center">
-            <Sparkles className="text-violet-800"/> Madame Elettrika
+            <Sparkles className="text-violet-800"/> Chiara luce&gas
+          </span>
+          <span className="text-base flex gap-2 items-center">
+            al tuo fianco, bolletta dopo bolletta
           </span>
         </Link>
 

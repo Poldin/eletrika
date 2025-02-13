@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Madame Elettrika",
+  title: "Chiaraa",
   description: "Al tuo fianco per scegliere la miglior bolletta di luce e gas",
 };
 
